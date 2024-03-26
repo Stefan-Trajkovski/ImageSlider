@@ -1,0 +1,71 @@
+.imageContainer {
+    height: 300px;
+    width: 600px;
+
+    position: relative;
+
+}
+
+.imageSlider {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to right, rgb(61, 52, 117), rgb(196, 155, 155));
+
+
+}
+
+.imageContainer {
+    width: 55vw;
+    height: 500px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    min-width: 10%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .6s ease-in-out;
+}
+
+img.active {
+    opacity: 1;
+}
+
+.icon {
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+    top: 45%;
+    color: gold;
+}
+
+.left {
+    left: 7%;
+}
+
+.right {
+    right: 7%;
+}
+
+.iconContainer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 1%;
+}
+
+.cIcon {
+    font-size: 15px;
+    color: rgb(66, 72, 72);
+    margin: 0 5px;
+}
+
+.activeC {
+    color: whitesmoke;
+}
